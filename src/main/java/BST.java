@@ -8,25 +8,6 @@ public class BST {
     private int size;
 
     /**
-     * Retorna a altura da raiz.
-     */
-    public int height() {
-        return -1;
-    }
-
-    /**
-     * Retorna a altura de um determinado nó. Auxiliar
-     * para recursão e para o balance.
-     */
-    public int height(Node node) {
-        return -1;
-    }
-
-    public int balance(Node node) {
-        return -1;
-    }
-
-    /**
      * Busca o nó cujo valor é igual ao passado como parâmetro. Essa é a implementação 
      * iterativa clássica da busca binária em uma árvore binária de pesquisa.
      * @param element O elemento a ser procurado.
