@@ -4,7 +4,7 @@
 * Email (@ccc): 
 * Matrícula: 
 
-# Roteiro: isAVL
+# Roteiro: Rotações
 
 ## O template
 
@@ -24,8 +24,12 @@
 
 ## A tarefa. 
 
-Você deve implementar o método isAVL, que verifica se uma BST é AVL, dada a definição que vimos em sala de aula. Para isso, você vai precisar implementar alguns métodos auxiliares, que 
-também estão na classe BST.
+Você deve implementar os métodos rotateLeft e rotateRight da classe Rotator. Analise bem os testes. Desenhe a árvore que eu monto antes para entender a rotação a ser feita. Lembre-se das verificações de null e de parent. 
+
+
+Importante: eu tomei algumas decisões controversas de design para facilitar a vida de vocês (e a minha, por tabela). A principal delas é que o método search expõe os nós. Idealmente não queremos dar esse controle para usuários da classe BST. Contudo, o objetivo dessa etapa da disciplina é que vocês entendam rotações. Não se preocupem, não seremos presos pela gangue do design pattern.
+
+
 
 ## Entregando o lab
 
