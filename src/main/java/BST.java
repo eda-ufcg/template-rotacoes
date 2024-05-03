@@ -7,16 +7,10 @@ public class BST {
     private Node root;
     private int size;
 
-    public boolean isAVL() {
-        //TODO: implementar
-        return false;
-    }
-
     /**
-     * Retorna a altura da árvore.
+     * Retorna a altura da raiz.
      */
     public int height() {
-        //TODO implementar
         return -1;
     }
 
@@ -24,11 +18,11 @@ public class BST {
      * Retorna a altura de um determinado nó. Auxiliar
      * para recursão e para o balance.
      */
-    private int height(Node node) {
+    public int height(Node node) {
         return -1;
     }
 
-    private int balance(Node node) {
+    public int balance(Node node) {
         return -1;
     }
 
@@ -420,6 +414,11 @@ class Node {
     public Node getParent() {
         return this.parent;
     }
+
+    public int getValue() {
+        return this.value;
+    }
+
 
     public boolean hasOnlyLeftChild() {
         return (this.left != null && this.right == null);
