@@ -24,7 +24,7 @@ public class RoteiroTest {
         // estado final do 10.
         assertNull(ten.getParent());
         assertNull(ten.getRight());
-        assertEquals(eight, ten.getLeft().getValue());
+        assertEquals(8, ten.getLeft().getValue());
 
 
         // estado final do 9.
