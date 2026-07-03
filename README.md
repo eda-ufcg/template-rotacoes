@@ -8,19 +8,17 @@
 
 ## O template
 
-> Não altere o arquivo build.gradle
-
 > O código java estará (ou você terá que colocar) no diretório **/src/main/java/**
 
-> Os testes estarão (ou você terá que incluir) no diretório **/src/test/java/**
+> Os asserts estarão (ou você terá que incluir) no diretório **/src/main/java/RoteiroTest.java**
 
-> Seu código é tão bom quanto seus testes. Eu vou executar meus testes quando você submeter.
+> Seu código é tão bom quanto seus asserts. Eu vou executar meus asserts quando você submeter.
 
-> Não mude nenhuma assinatura de método, nome de classe ou localização dos arquivos. Mas você pode/deve criar outros métodos e classes, desde que passem nos testes.
+> Não mude nenhuma assinatura de método, nome de classe ou localização dos arquivos. Mas você pode/deve criar outros métodos e classes, desde que passem nos asserts.
 
-> Compilando: `gradle compileJava` na raiz do projeto.
+> Compilando: `javac src/main/java/*.java` na raiz do projeto.
 
-> Executando os testes: `gradle test` na raiz do projeto.
+> Executando os asserts: `java -ea -cp src/main/java RoteiroTest` na raiz do projeto.
 
 ## A tarefa. 
 
@@ -35,7 +33,7 @@ Importante: eu tomei algumas decisões controversas de design para facilitar a v
 
 > Passo 0. Modifique o arquivo README. Coloque seu nome, email @ccc e matrícula nos lugares indicados. Se você não fizer isso, não considero que sua prova foi assinada e, portanto, não vou corrigir. Não mude a formatação da linha. Apenas inclua seus dados.
 
-> Passo 1. Certifique-se **NO TERMINAL** de que sua solução compila e passa nos testes. Isso deve ser feito com os comandos do gradle (compileJava e test).
+> Passo 1. Certifique-se **NO TERMINAL** de que sua solução compila e passa nos asserts. Isso deve ser feito com os comandos javac e java (compile e execute com asserts habilitados).
 
 > Passo 2. Certifique-se de que você respondeu as perguntas teóricas onde foi indicado aqui no README.
 
