@@ -148,6 +148,13 @@ public class RoteiroTest {
     }
 
     public static void main(String[] args) {
+        boolean assertsEnabled = false;
+        assert assertsEnabled = true;
+        if (!assertsEnabled) {
+            System.err.println("Execute com -ea para habilitar os asserts: java -ea -cp src/main/java RoteiroTest");
+            System.exit(1);
+        }
+
         RoteiroTest test = new RoteiroTest();
         test.testCase1();
         test.testCase2();
